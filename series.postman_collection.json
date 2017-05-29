@@ -1,0 +1,93 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Flask - Series",
+		"_postman_id": "5e7ebb40-ee82-e8b9-8197-c682c8865905",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create",
+			"request": {
+				"url": "http://localhost:5000/series",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Breaking Bad\",\n\t\"lastSeason\": 7\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get all",
+			"request": {
+				"url": "http://localhost:5000/series",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get one by name",
+			"request": {
+				"url": "http://localhost:5000/series/The Walking Dead",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Update one by Name",
+			"request": {
+				"url": "http://localhost:5000/series",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"The Walking Dead\",\n\t\"newName\": \"Rick and Morty\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete one by Name",
+			"request": {
+				"url": "http://localhost:5000/series",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"The Walking Dead\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
