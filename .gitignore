@@ -100,5 +100,8 @@ ENV/
 # mypy
 .mypy_cache/
 
-#
+# visual studio code configurations
 .vscode/
+
+# node package
+node_modules/

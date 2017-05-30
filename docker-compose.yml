@@ -6,7 +6,7 @@ services:
       - "27017:27017"
   web:
     build: .
-    command: python3 src/series.py
+    command: python3 server/series.py
     volumes:
       - .:/src
     ports:

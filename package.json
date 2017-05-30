@@ -1,0 +1,37 @@
+{
+  "name": "try-flask",
+  "version": "1.0.0",
+  "description": "Project to learn how to create APIs with Flask framework.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rafaelbenetti/try-flask.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelbenetti/try-flask/issues"
+  },
+  "homepage": "https://github.com/rafaelbenetti/try-flask#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "autoprefixer": "^6.7.7",
+    "babel-preset-es2015": "^6.24.0",
+    "del": "^2.2.2",
+    "gulp-babel": "^6.1.2",
+    "gulp-chmod": "^2.0.0",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1"
+  }
+}
