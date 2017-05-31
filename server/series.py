@@ -1,8 +1,10 @@
 from flask import Flask, jsonify, request
 from flask_pymongo import PyMongo
+from flask_cors import CORS
 
 # configure app 
 app = Flask(__name__)
+CORS(app)
 
 # configure mongo
 app.config['MONGO_DBNAME'] = 'series'
