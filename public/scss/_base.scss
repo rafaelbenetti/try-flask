@@ -1,3 +1,19 @@
+$primary-color: #497ea4;
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background: yellow;
-} 
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+header h1 {
+    color: $primary-color;
+}
+
+.hidden {
+    display: none;
+}

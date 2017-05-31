@@ -1,1 +1,1 @@
-body{background:#ff0}
+*{box-sizing:border-box}body{font-family:"Open Sans",Helvetica,Arial,sans-serif;margin:0;text-align:center}header h1{color:#497ea4}.hidden{display:none}.serie .serie-cover{border-radius:5px;width:100px}.serie .serie-title{color:#497ea4;margin:10px}.serie .serie-genre,.serie .serie-seasons{font-weight:700}

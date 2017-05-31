@@ -1,0 +1,14 @@
+.serie {
+    .serie-cover {
+        border-radius: 5px;
+        width: 100px;        
+    }
+    .serie-title {
+        color: $primary-color;
+        margin: 10px;
+    }
+    .serie-seasons,
+    .serie-genre {
+        font-weight: 700;
+    }
+}

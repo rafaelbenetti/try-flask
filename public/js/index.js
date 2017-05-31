@@ -1,13 +1,13 @@
 /* jshint esversion: 6*/
-(function() {
+let Index = (function() {
     'use strict';
 
-    function init() {
-        HttpRequest({url: 'http://localhost:5000/series'})
-        .then((data) => {
-            console.log(data);
-        });
-    }
+    let init = function() {
+        Series.init();
+    };
 
-    init();
+    return {
+        init
+    };
+    
 })();

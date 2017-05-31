@@ -18,7 +18,7 @@ def get_all():
     series = mongo.db.series.find()
 
     for q in series:
-        output.append({'name' : q['name']})
+        output.append({'name' : q['name'], 'coverImage': q['coverImage'], 'genre': q['genre'], 'numberOfSeasons': q['numberOfSeasons']})
 
     return jsonify({'result' : output})
 

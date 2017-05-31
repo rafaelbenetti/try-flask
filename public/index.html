@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,34 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.min.css">
 </head>
+
 <body>
-    Basic http test
+    <header>
+        <h1>Search your best Serie for free!</h1>
+    </header>
+    <section class="content">
+        <ul id="series">
+            <!-- Series goes here! -->
+        </ul>
+    </section>
+
+    <div class="hidden" id="templates">
+        <li class="serie">
+            <img class="serie-cover" src="http://graprestoliv.at.ua/_ld/0/93568874.jpg" />
+            <h4 class="serie-title">Game Of Thrones</h4>
+            <label class="serie-seasons">Seasons avaible:<span>7</span></label>
+            <div>
+                <label class="serie-genre">Genre:</label>
+                <span>Drama</span>
+                <span>Action</span>
+                <span>Fantasy</span>
+            </div>
+        </li>
+    </div>
 </body>
 <script src="assets/js/script.min.js" type="text/javascript"></script>
+<script>
+    Index.init();
+</script>
+
 </html>

@@ -1,0 +1,49 @@
+[{
+        "name": "The Walking Dead",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Walking_Dead_Season_3_Official_Poster.jpg/220px-Walking_Dead_Season_3_Official_Poster.jpg",
+        "numberOfSeasons": 7,
+        "genre": [
+            "family", "action", "horror"
+        ]
+    },
+    {
+        "name": "Breaking Bad",
+        "coverImage": "http://www.cineplayers.com/series/img/cartazes/6_poster.jpg",
+        "numberOfSeasons": 5,
+        "genre": [
+            "drama", "action", "fantasy"
+        ]
+    },
+    {
+        "name": "Game of Thrones",
+        "coverImage": "http://graprestoliv.at.ua/_ld/0/93568874.jpg",
+        "numberOfSeasons": 8,
+        "genre": [
+            "drama", "action", "fantasy"
+        ]
+    },
+    {
+        "name": "Better Call Saul",
+        "coverImage": "http://www.cineplayers.com/series/img/cartazes/13_poster.jpg",
+        "numberOfSeasons": 2,
+        "genre": [
+            "drama"
+        ]
+    },
+    {
+        "name": "South Park",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/8/83/SouthParkbiggerlongeruncut.jpg",
+        "numberOfSeasons": 20,
+        "genre": [
+            "adult", "cartoons", "comedy"
+        ]
+    },
+    {
+        "name": "Narcos",
+        "coverImage": "http://www.cineplayers.com/series/img/cartazes/185_poster.jpg",
+        "numberOfSeasons": 2,
+        "genre": [
+            "drama", "crime"
+        ]
+    }
+]
