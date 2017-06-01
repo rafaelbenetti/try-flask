@@ -23,9 +23,15 @@ let Series = (function () {
         let template = document.querySelector('#templates .serie').cloneNode(true);
         
         template.querySelector('.serie-cover').src = item.coverImage;    
-        template.querySelector('.serie-title').value = item.name;
-        template.querySelector('.serie-seasons > span').value = item.numberOfSeasons;       
-                
+        template.querySelector('.serie-title').innerHTML = item.name;
+        template.querySelector('.serie-seasons > span').innerHTML = item.numberOfSeasons;       
+        
+        item.genre.map((genre) => {
+            let span = document.querySelector('#templates .serie-genre').cloneNode(true);
+            span.innerHTML = genre;
+            template.querySelector('.serie-genres').appendChild(span);
+        });
+
         document.getElementById('series').appendChild(template);
     }
 

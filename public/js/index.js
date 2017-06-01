@@ -2,9 +2,9 @@
 let Index = (function() {
     'use strict';
 
-    let init = function() {
+    function init() {
         Series.init();
-    };
+    }
 
     return {
         init

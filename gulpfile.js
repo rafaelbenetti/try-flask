@@ -23,7 +23,7 @@
          `${publicFolder}/js/*.js`
      ];
 
-     gulp.task('delete', () => {
+     gulp.task('delete', () => { 
          del([
              `${publicFolder}assets/css`,
              `${publicFolder}assets/js`
@@ -56,7 +56,7 @@
              .pipe(babel({
                  presets: ['es2015']
              }))
-             //.pipe(uglify())
+             .pipe(uglify())
              .pipe(concat('script.js'))
              .pipe(rename({
                  suffix: '.min'

@@ -1,14 +1,33 @@
 .serie {
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    min-width: 200px;
+    &:hover {
+        cursor: pointer;
+    }
     .serie-cover {
         border-radius: 5px;
-        width: 100px;        
+        width: 100px;
     }
     .serie-title {
         color: $primary-color;
         margin: 10px;
     }
-    .serie-seasons,
+    .serie-seasons {
+        display: inline-block;
+        margin-bottom: 10px;
+        font-size: 90%;        
+    }
     .serie-genre {
-        font-weight: 700;
+        background: #0f620f;
+        border-radius: 2px;
+        color: white;
+        font-size: 80%;
+        margin: 4px;
+        padding: 3px;
     }
 }
